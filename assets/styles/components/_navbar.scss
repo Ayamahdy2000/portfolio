@@ -1,0 +1,44 @@
+.navbar{
+    padding-top: 25px;
+    margin-bottom: 60px;
+    align-items: center;
+    .navbar-toggler{
+        border: none !important;
+        box-shadow: none !important;
+    }
+    .navbar-brand{
+        font-family: 'SegoeUI-Bold';
+        letter-spacing: 5px;
+        padding: 0;
+        text-transform: uppercase;
+        @include font-size(20px,20px,18px);
+
+
+    }
+    .nav-item{
+        margin-inline-start: 20px;
+        .nav-link{
+            @include font-size(16px,14px,14px); 
+            padding: 9px 20px;
+            color: #000;
+            background: transparent;
+            transition: all 0.3s ease-in-out;
+            &.router-link-exact-active{
+                background-color: #2B2A2A;
+                color: #fff;
+            }
+            
+        }
+    }
+}
+
+@media (max-width:992px){
+    .navbar{
+        .navbar-collapse{
+            margin-top: 30px;
+            .nav-item{
+                margin: 0;
+            }
+        }
+    }
+}

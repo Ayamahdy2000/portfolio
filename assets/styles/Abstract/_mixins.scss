@@ -1,0 +1,12 @@
+@mixin font-size( $desktop, $tablet, $mobile) {
+    font-size: #{$desktop};
+
+    @media screen and (max-width: 992px) {
+        font-size:  #{$tablet};
+    }
+
+    @media screen and (max-width: 767px) {
+        font-size:  #{$mobile};
+    }
+}
+
