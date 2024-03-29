@@ -8,4 +8,9 @@ export default defineNuxtConfig({
       mode: "client",
     },
   ],
+  ssr: false,
+  sourcemap: {
+    server: true,
+    client: true,
+  },
 });
