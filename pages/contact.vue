@@ -30,24 +30,15 @@
       Download My CV
     </button>
 
-    <!-- <a :href="pdfUrl" target="_blank">Download PDF</a>
-    <br />
-    <a href="static/AyaMahdy.pdf" target="_blank">Download</a>
-    <br /> -->
+    <a href="/AyaMahdy.pdf">download</a>
+
   </div>
 </template>
 <script>
 import tabs from "~/components/tabs.vue";
-// import file from "/public/AyaMahdy.pdf";
 export default {
   components: {
     tabs,
-  },
-  computed: {
-    pdfUrl() {
-     
-      return "/AyaMahdy.pdf"; // Adjust the path if your PDF file is located in a different directory
-    },
   },
   setup() {
     // console.log(file)
