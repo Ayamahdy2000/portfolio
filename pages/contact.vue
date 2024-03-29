@@ -45,7 +45,7 @@ export default {
   },
   computed: {
     pdfUrl() {
-      // Return the URL to the PDF file
+     
       return "/AyaMahdy.pdf"; // Adjust the path if your PDF file is located in a different directory
     },
   },
