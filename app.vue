@@ -31,6 +31,10 @@ export default defineNuxtComponent({
           content: "Aya Mahdy",
         },
         {
+          property: "og:image",
+          content:'https://master--ayamahdy.netlify.app'+ "/favicon.ico",
+        },
+        {
           property: "og:description",
           content:
             "'Welcome to Aya Mahdy's website.I am senior frontend developer. Find my latest skills, and contact information.",
