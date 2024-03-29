@@ -1,5 +1,5 @@
 <template>
-  <div class="about mb-5">
+  <div class="about ">
     <div class="generic-title">
       <p>About me</p>
       <h5>About me</h5>
