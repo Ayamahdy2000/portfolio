@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container d-flex flex-column">
     <navbar-layout /> <slot></slot>
     <footer-layout />
   </div>

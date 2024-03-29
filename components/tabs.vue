@@ -1,7 +1,7 @@
 <template>
   <div :class="isVertical ? 'd-flex align-items-start' : 'tabs-horizontal'">
     <div
-      class="nav  nav-pills me-3" :class="isVertical ? 'flex-column' : ''"
+      class="nav  nav-pills " :class="isVertical ? 'flex-column' : ''"
       id="v-pills-tab"
       role="tablist"
       :aria-orientation="isVertical ? 'vertical' : ''"

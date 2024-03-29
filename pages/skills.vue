@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="about mb-5">
     <h4 class="generic-sub-title generic-sub-title--sm">Skills</h4>
     <tabs :types="state.types" :isVertical="false"> </tabs>
   </div>

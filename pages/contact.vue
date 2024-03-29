@@ -17,20 +17,20 @@
       /></span>
       +201069446733
     </p>
-    <p class="about__desc">
+    <p class="about__desc mb-5">
       <span
         ><img src="../assets/images/icon-location.svg" alt="icon location"
       /></span>
       Ismailia - Egypt
     </p>
-    <button
-      class="generic-btn"
-      @click="downloadFile('Aya Mahdy Senior Frontend 11 - 2023.pdf')"
+    <a
+      class="generic-btn "
+     href="https://drive.google.com/file/d/1lTieqxk7TrVI9Cr4MkP6xcxeLIaI4YmF/view"
+     target="_blank"
     >
       Download My CV
-    </button>
+    </a>
 
-    <a href="/AyaMahdy.pdf">download</a>
 
   </div>
 </template>
@@ -41,24 +41,7 @@ export default {
     tabs,
   },
   setup() {
-    // console.log(file)
-    const downloadFile = (fileName) => {
-      fetch("static/AyaMahdy.pdf")
-        .then((resp) => resp.blob())
-        .then((blob) => {
-          const url = window.URL.createObjectURL(blob);
-          const a = document.createElement("a");
-          a.style.display = "none";
-          a.href = url;
-          a.download = fileName;
-          document.body.appendChild(a);
-          a.click();
-          window.URL.revokeObjectURL(url);
-        });
-    };
-    return {
-      downloadFile,
-    };
+   
   },
 };
 </script>

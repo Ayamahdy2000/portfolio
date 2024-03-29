@@ -29,7 +29,7 @@ body {
 
     p {
         color: transparent;
-        font-size: 8vh;
+        font-size: 7vh;
         line-height: 0.75em;
         text-shadow: 0 4px 8px #fff, 0 12px 8px #fff;
         opacity: 0.15;
@@ -54,10 +54,10 @@ body {
 
 .generic-sub-title {
     font-family: 'Poppins-Medium';
-    @include font-size(40px, 38px, 28px);
+    @include font-size(40px, 38px, 22px);
     margin-bottom: 32px;
     &.generic-sub-title--sm{
-        @include font-size(28px, 26px, 24px);
+        @include font-size(28px, 26px, 22px);
     }
 }
 
@@ -67,6 +67,7 @@ body {
     padding: 9px 32px;
     box-shadow: none !important;
     outline: none !important;
+    text-decoration: unset;
     transition: all 0.3s ease-in-out;
     border: 1px solid var(--lightBlack);
     @include font-size(16px, 14px, 14px);
@@ -79,11 +80,19 @@ body {
     }
 }
 
-.contact{
+.about.contact{
     span{
         margin-inline-end: 5px;
         img{
             width: 16px;
+            margin: 0;
+        }
+    }
+    .about__desc{
+        display: flex;
+        align-items: center;
+        @media (max-width:768px) {
+            margin-bottom: 16px;
         }
     }
 }
