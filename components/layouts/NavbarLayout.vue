@@ -25,7 +25,7 @@
             <router-link class="nav-link" to="/skills">Skills</router-link>
           </li>
            <li class="nav-item">
-            <router-link class="nav-link" to="/contact">Contact Us</router-link>
+            <router-link class="nav-link" to="/contact">Contact Me</router-link>
           </li>
         </ul>
        

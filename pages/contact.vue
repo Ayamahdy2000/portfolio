@@ -1,8 +1,8 @@
 <template>
   <div class="about contact">
     <div class="generic-title">
-      <p>Contact us</p>
-      <h5>Contact us</h5>
+      <p>Contact me</p>
+      <h5>Contact me</h5>
     </div>
     <h3 class="generic-sub-title">Let's Build Something Together</h3>
     <a
