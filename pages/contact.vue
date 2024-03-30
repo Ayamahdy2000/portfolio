@@ -29,7 +29,7 @@
     </p>
     <a
       class="generic-btn"
-      href="https://drive.google.com/file/d/1lTieqxk7TrVI9Cr4MkP6xcxeLIaI4YmF/view"
+      href="https://drive.google.com/file/d/17-xKkup-4F4wy5q6ScmtBicKQRXzhDMv/view?usp=sharing"
       target="_blank"
     >
       Download My CV
