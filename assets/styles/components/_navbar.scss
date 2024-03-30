@@ -34,8 +34,12 @@
 
 @media (max-width:992px){
     .navbar{
+        margin-bottom: 40px;
         .navbar-collapse{
-            margin-top: 30px;
+            margin-top: 0px;
+            ul{
+                padding-top: 30px;
+            }
             .nav-item{
                 margin: 0;
             }

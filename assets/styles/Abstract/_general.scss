@@ -91,6 +91,7 @@ body {
     .about__desc{
         display: flex;
         align-items: center;
+        text-decoration: unset;
         @media (max-width:768px) {
             margin-bottom: 16px;
         }
