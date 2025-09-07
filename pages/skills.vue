@@ -15,7 +15,7 @@ export default {
     const state = reactive({
       types: [
         {
-          id: "TurnDigital",
+          id: "silkySysytems",
           title: "Technical Skills",
           data: [
             {
