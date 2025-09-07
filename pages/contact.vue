@@ -25,7 +25,7 @@
       <span
         ><img src="../assets/images/icon-location.svg" alt="icon location"
       /></span>
-      Ismailia - Egypt
+      Cairo - Egypt
     </p>
     <a
       class="generic-btn"
