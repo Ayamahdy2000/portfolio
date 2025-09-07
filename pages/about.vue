@@ -25,11 +25,19 @@ export default {
   setup() {
     const state = reactive({
       types: [
+         {
+          id: "silkySysytems",
+          title: "Silky Sysytems",
+          data: [
+            { title: "Senior Frontend developer", date: "Jun 2024 - Present" },
+         
+          ],
+        },
         {
           id: "TurnDigital",
           title: "TurnDigital",
           data: [
-            { title: "Senior Frontend developer", date: "Nov 2023- Present" },
+            { title: "Senior Frontend developer", date: "Nov 2023- Jun 2024" },
             { title: "Frontend developer", date: "May 2022- Nov 2023" },
           ],
         },

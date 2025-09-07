@@ -49,7 +49,7 @@ export default {
   props: ["types" , "isVertical"],
   setup(){
     const state = reactive({
-        active : 'TurnDigital'
+        active : 'silkySysytems'
     })
     return {state}
   }
