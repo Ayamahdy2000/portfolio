@@ -12,21 +12,21 @@
           passionate about building excellent software that improves the lives
           of those around me.
         </p>
-        <button class="generic-btn" @click="goTo">More About Me</button>
+        <NuxtLink to="/about" class="generic-btn"> More About Me </NuxtLink>
       </div>
 
       <div class="col-lg-5 col-md-6 col-12 order-md-2 order-1">
-        <img src="../assets/images/myImage.svg" class="my-image" alt="my-image" />
+        <img
+          src="../assets/images/myImage.svg"
+          class="my-image"
+          alt="my-image"
+        />
       </div>
     </div>
   </div>
 </template>
 <script>
 export default {
-    methods:{
-        goTo(){
-            this.$router.push("/about")
-        }
-    }
-}
+
+};
 </script>

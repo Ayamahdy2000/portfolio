@@ -1,13 +1,14 @@
 <template>
-  <div class="container d-flex flex-column">
-    <navbar-layout /> <slot></slot>
-    <footer-layout />
+  <div class="container d-flex flex-column min-vh-100">
+    <NavbarLayout />
+    <main class="flex-grow-1">
+      <slot></slot>
+    </main>
+    <FooterLayout />
   </div>
 </template>
-<script>
+
+<script setup>
 import FooterLayout from '~/components/layouts/FooterLayout.vue';
-import NavbarLayout from "~/components/layouts/NavbarLayout.vue";
-export default {
-  components: { NavbarLayout, FooterLayout },
-};
+import NavbarLayout from '~/components/layouts/NavbarLayout.vue';
 </script>

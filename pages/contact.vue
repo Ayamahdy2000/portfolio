@@ -37,11 +37,8 @@
   </div>
 </template>
 <script>
-import tabs from "~/components/tabs.vue";
 export default {
-  components: {
-    tabs,
-  },
+ 
   setup() {},
 };
 </script>

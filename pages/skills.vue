@@ -15,7 +15,7 @@ export default {
     const state = reactive({
       types: [
         {
-          id: "silkySysytems",
+          id: "TechnicalSilks",
           title: "Technical Skills",
           data: [
             {
